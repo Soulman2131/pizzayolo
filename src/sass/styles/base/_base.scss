@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+
+  //😍😍😍
+  @media screen and (max-width: $bp-large) {
+    font-size: 50%;
+  }
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Regular", sans-serif;
+  line-height: 1.6;
+  color: $color-black;
+  background: $color-secondary;
+  border-bottom: 1.6rem solid $color-primary;
+  padding: 3.2rem;
+  padding-bottom: 6rem;
+}

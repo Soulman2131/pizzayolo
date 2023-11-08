@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+# Info text
+Info.txt
+
+
+
 # testing
 /coverage
 

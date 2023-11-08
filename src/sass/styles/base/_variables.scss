@@ -1,0 +1,47 @@
+// FONTS
+//Black
+@font-face {
+  font-family: "Black";
+  font-weight: 900;
+  src: url("../assets/fonts/roboto-black-webfont.woff2") format("woff2"),
+    url("../assets/fonts/roboto-black-webfont.woff") format("woff");
+}
+
+//BOLD ITALIC
+@font-face {
+  font-family: "Bold";
+  font-weight: 700;
+  src: url("../assets/fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("../assets/fonts/roboto-bold-webfont.woff") format("woff");
+}
+//LIGHT
+@font-face {
+  font-family: "Light";
+  font-weight: 500;
+  src: url("../assets/fonts/roboto-light-webfont.woff2") format("woff2"),
+    url("../assets/fonts/roboto-light-webfont.woff") format("woff");
+}
+//REGULAR
+@font-face {
+  font-family: "Regular";
+  font-weight: 300;
+  src: url("../assets/fonts/roboto-regular-webfont.woff2") format("woff2"),
+    url("../assets/fonts/roboto-regular-webfont.woff") format("woff");
+}
+
+//COLOR
+$color-primary: #edc84b;
+$color-secondary: #f7f2e9;
+$color-tertiary: #e9bb24;
+
+$color-grey: #888;
+$color-black: #252525;
+
+/***************** BREAKPOINTS 😍😍😍 ****************/
+
+$bp-large: 62.5em; //1000px/16
+$bp-medium: 50em; //800px/16
+$bp-small: 37.5em; //600px/16
+$bp-xsmall: 31.25em;
+
+/***************** ****************/

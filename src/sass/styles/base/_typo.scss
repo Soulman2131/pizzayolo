@@ -1,0 +1,60 @@
+// H1
+.heading-primary {
+  width: 100%;
+  font-size: 5.2rem;
+  color: $color-primary;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  position: relative;
+
+  //😍😍😍
+  @media screen and (max-width: $bp-medium) {
+    font-size: 4rem;
+  }
+  &::before,
+  &::after {
+    content: "";
+    height: 0.3rem;
+    width: 30%;
+    background-color: $color-primary;
+    position: absolute;
+    top: calc(50% - 1px);
+
+    //😍😍😍
+    @media screen and (max-width: $bp-medium) {
+      width: 25%;
+    }
+    @media screen and (max-width: $bp-small) {
+      width: 20%;
+    }
+    @media screen and (max-width: $bp-xsmall) {
+      width: 0;
+    }
+  }
+  &::before {
+    left: 0;
+  }
+  &::after {
+    right: 0;
+  }
+}
+
+//H2
+.heading-secondary {
+  font-size: 2.4rem;
+  color: $color-black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  border-top: 2px solid currentColor;
+  letter-spacing: 3px;
+  border-bottom: 2px solid currentColor;
+  font-weight: 500;
+}
+
+//H3
+.heading-tertiary {
+  font-size: 2rem;
+  font-weight: 300;
+}
