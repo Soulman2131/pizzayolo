@@ -7,8 +7,8 @@
  Le projet est construit sur la base de REACT, HTML/CSS et du préprocesseur SCSS.
 
  ### Lancer le projet
- - NPM INSTALL
- - NPM RUN START
+ - npm install
+ - npm run start
 
 ### Aspects Techniques:
 - Concepts de base : components, props, JSX.
